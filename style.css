@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+}
+.header-container {
+    background-color: #1F2937;
+    flex: auto;
+    height: 100%;
+}
+#logo {
+    width: 100px;
+    flex: auto;
+} 
+
+.header-links {
+    flex: auto;
+    align-items: flex-end;
+}
