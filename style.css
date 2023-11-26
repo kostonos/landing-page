@@ -86,7 +86,9 @@ p {
 .image-container {
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
 }
 
 .image-container img {
@@ -103,4 +105,21 @@ p {
     font-size: 16px;
     flex: auto;
     flex-wrap: wrap;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 8%;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
