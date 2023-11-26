@@ -1,3 +1,6 @@
+body {
+    font-family: "Roboto", arial;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -9,13 +12,61 @@ header{
     background-color: #1F2937;
     flex: auto;
     height: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 #logo {
-    width: 100px;
+    width: 80px;
     flex: auto;
+    margin-left: 10%;
+    padding: 10%;
 } 
 
 .header-links {
     flex: auto;
-    align-items: flex-end;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    float: right;
+    margin-top: 60px;
+    
+}
+
+.intro-container {
+    background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    color: #F9FAF8;
+    display: flex;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 1%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.intro-container-image img {
+    width: 70%;
+    float: right;
+}
+
+.intro-button {
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 12px;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
 }
